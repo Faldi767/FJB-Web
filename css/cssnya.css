@@ -1,0 +1,611 @@
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background: linear-gradient(to bottom right, #000000, #FFFFFF);
+}
+
+#container {
+	width: 800px;
+	margin: auto;
+	background: #876B50;
+}
+
+
+
+/*------------ Header --------------- */
+
+#header {
+	height: 250px;
+	background: url(images/csgo.jpg) no-repeat right bottom;
+	background-size: cover;
+}
+
+#site_title {
+	padding-top: 130px;
+	padding-left: 10px;
+	font-family: Urban Jungle;
+	font-size: 50px;
+	color:#FF0000;
+}
+
+#site_title span{
+	font-weight: 200;
+	color:#FF5555;
+}
+
+#site_slogan {
+	padding-top: 25px;
+	padding-left: 90px;
+	font-family: Impact;
+	font-size: 20px;
+	color:#FFFF66;
+}
+/* ---------------------------------- */
+
+/*------------- Menu ------------------*/
+.menu{
+	margin: 0px;
+	padding-top: 10px;
+	float: left;
+	width: 800px;
+	background: #212121;
+	background: linear-gradient(to bottom right, #FF9999, #FF0000);
+	border-radius: 10px;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+
+.menu li{
+	display: inline;
+}
+
+.menu li a{
+	padding-bottom: 10px;
+	float: left;
+	font: 16px arial;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	width: 160px;
+	transition-duration: 0.2s;
+}
+
+.menu li a:visited{
+	color: #000000;
+}
+
+.menu li a:hover, .menu li .current{
+	color: #00FF00;
+}
+
+/* ----------------- end of menu----------------*/
+
+/* ----------------- Content ----------------------- */
+
+
+#content {
+	width: 800px;
+	background:  #876B50;
+}
+
+#left_column {
+	float: left;
+	width: 210px;
+	padding: 20px;
+	min-height: 400px;
+	background: #876B50;
+}
+
+#right_column {
+	float: left;
+	width: 510px;
+	padding: 20px;
+	min-height: 400px;
+	background: #d84b4b;
+}
+
+
+/* ---------------- section box --------------- */
+.section_box {
+	width: 510px;
+	background: #AAAAFF;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.section_box .subtitle{
+	padding: 5px 0px 10px 15px;
+	font-size: 1.4em;
+	color: #000000;
+}
+	
+.section_box .text{
+	padding: 0px 15px 5px 15px;
+	font-size: 1em;
+	color: #000000;	
+}
+
+
+.sectionbox_roundtop { 
+	height: 9px;
+	background: url(images/sectiontr.gif) no-repeat top right; 
+}
+
+.sectionbox_roundbottom { 
+	height: 9px;
+	background: url(images/sectionbr.gif) no-repeat bottom right; 
+}
+
+/* -------------------- */
+
+/* ------- Left Column Section Box2 ------------- */
+
+
+.box2 {
+	margin-top: 0px;
+	padding: 10px 15px 5px 15px;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.sction_box2_roundcont {
+	margin-bottom: 0px;
+	width: 210px;
+	background-color: #212121;
+}
+
+.sction_box2_roundtop { 
+	height: 9px;
+	background: url(images/section2tr.gif) no-repeat top right; 
+}
+
+.sction_box2_roundbottom {
+	margin-bottom: 15px;
+	height: 25px;
+	background-image: url("images/aaa.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.box2 a{
+	background: url(images/linkindicator.gif) no-repeat center left;
+	text-decoration: none;
+	padding-left: 20px;
+	color: #cccc99;
+}
+
+.section_box2_subtitle {
+	padding-bottom: 16px;
+	margin-bottom: 5px;
+	font-size: 1.3em;
+	color:#000000;
+	background: url(images/bb.gif) no-repeat bottom left;
+	background-size: 100px 25px;
+}
+
+/*--------------- end of left column section box ------------ */
+
+
+.text_area {
+	margin: 10px;
+}
+
+.lagutitle {
+	font-family: Lucida Sans;
+}
+
+.title {
+	height: 20px;
+	font-family: HACKED;
+	width: 500px;
+	color:#000000;
+	font-size: 23px;	
+	background: #FDF9DF;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.text_area a, .section_box a{
+	color: #cc3333;
+	text-decoration: none;
+}
+
+img.corner {
+   width: 9px;
+   height: 9px;
+   border: none;
+   display: block !important;
+}
+
+
+/* -------- Footer --------- */
+
+#footer {
+	clear: left;
+	width: 800px;
+	background: #212121;
+	color: #b6a169;
+}
+#footer a {
+	background: #212121;
+	color: #b6a169;
+}
+
+#footer .roundbottom {
+	height: 9px;
+	background: url(images/br.gif) no-repeat bottom right; 
+}
+
+#copyright {
+	padding-top: 10px;
+	text-align:center;
+}
+
+/* --------- end of footer --------------*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #d84b4b;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg:hover {opacity: 0.7;}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #d84b4b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input:focus,textarea:focus {
+  outline: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    background: #eee url("http://jenniferperrin.com/image/background.gif");
+    margin: 0;
+    font-size: 12px;
+}     
+
+/*----------------------*/
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+input:focus,textarea:focus {
+  outline: none;
+}
+
+
+.cf:before, .cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+.cf {
+  zoom:1;
+}
+  
+/*----------------------*/
+
+header {
+  padding: 8px 10%;
+  border-bottom: 1px solid #444;
+  background-color: #444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+  background-image: -webkit-linear-gradient(top, #444, #111);
+  background-image: -moz-linear-gradient(top, #444, #111);
+  background-image: -ms-linear-gradient(top, #444, #111);
+  background-image: -o-linear-gradient(top, #444, #111);
+  background-image: linear-gradient(top, #444, #111);
+  -moz-box-shadow: 0 -3px 3px rgba(0,0,0,.5) inset;
+  -webkit-box-shadow: 0 -3px 3px rgba(0,0,0,.5) inset;
+  box-shadow: 0 -3px 3px rgba(0,0,0,.5) inset;
+}
+
+/*----------------------*/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #000;
+  border-bottom: 1px solid #444;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;    
+}
+
+nav li {
+  float: left;          
+}
+
+nav #login {
+  border-right: 1px solid #444;
+  -moz-box-shadow: 1px 0 0 #222;
+  -webkit-box-shadow: 1px 0 0 #444;
+  box-shadow: 1px 0 0 #444;  
+}
+
+nav #login-trigger,
+nav #signup a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #d79800;
+  text-shadow: 0 1px 0 #444;
+  transition: 0.2s;
+}
+
+nav #signup a {
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+nav #login-trigger {
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+nav #login-trigger:hover,
+nav #login .active,
+nav #signup a:hover {
+  background: #222;
+  color: #efefef;
+}
+
+nav #login-content {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 999;    
+  background: #444;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+  background-image: -webkit-linear-gradient(top, #444, #000);
+  background-image: -moz-linear-gradient(top, #444, #000);
+  background-image: -ms-linear-gradient(top, #444, #000);
+  background-image: -o-linear-gradient(top, #444, #000);
+  background-image: linear-gradient(top, #444, #000);  
+  padding: 15px;
+  -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  -moz-border-radius: 3px 0 3px 3px;
+  -webkit-border-radius: 3px 0 3px 3px;
+  border-radius: 3px 0 3px 3px;
+}
+
+nav li #login-content {
+  right: 0;
+  width: 250px;  
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #efefef;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 238px;
+  border: 1px solid #222222;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 1px #efefef inset;
+  -webkit-box-shadow: 0 1px 1px #efefef inset;
+  box-shadow: 0 1px 1px #efefef inset;
+  transition: 0.2s;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #bf4c24;
+  outline: none;
+  -moz-box-shadow: 0 0 0 1px #efefef inset;
+  -webkit-box-shadow: 0 0 0 1px #efefef inset;
+  box-shadow: 0 0 0 1px #efefef inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+#login #submit {        
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(top, #00bfff, #0080ff);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #222222;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #efefef;
+}
+
+#login #submit:hover,
+#login #submit:focus {        
+  background-color: #d79800;
+  background-image: -webkit-linear-gradient(top, #0040ff, #0000ff);
+}    
+
+#login #submit:active {        
+  outline: none;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: right;
+  line-height: 30px;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
